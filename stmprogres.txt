@@ -1,0 +1,66 @@
+project progress with microcontroller STM32f407 (red blinking LED)
+
+tools :
+1. STM32f407 discovery board
+2. USB connector type B 
+3. Software eclipse Indigo as IDE
+4. ST-LINK tool to transfer the compiled program to the board
+
+
+
+code in .c file 
+
+
+
+#include "stm32f4_discovery.h"  //include library of stm32f4_discovery 
+ 
+void Delay(__IO uint32_t nCount); //delay function
+ 
+int main(void) // main execute
+ 
+{
+ 
+STM_EVAL_LEDInit(<em>LED5</em>);
+ 
+while (1)
+ 
+{
+ 
+//Turn on led
+ 
+STM_EVAL_LEDOn(<em>LED5</em>);
+ 
+Delay(2194303);
+ 
+//switch off
+ 
+STM_EVAL_LEDOff(<em>LED5</em>);
+ 
+Delay(2194303);
+}
+ 
+}
+ 
+void Delay(__IO uint32_t nCount)
+ 
+{
+ 
+while(nCount--)
+ 
+{
+ 
+}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
