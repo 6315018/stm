@@ -10,3 +10,4 @@ progress red blinking pada board stm32f4 discovery
 6. board stm32f4 discovery 
 
 dalam proses pengerjaan terdapat beberapa error yaitu : 
+![error saat run](https://user-images.githubusercontent.com/32272275/32444843-8e65db02-c336-11e7-8233-02c2954ec2dd.png)
