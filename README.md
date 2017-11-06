@@ -14,4 +14,7 @@ dalam proses pengerjaan terdapat beberapa error yaitu :
 
 error diatas sepertinya terjadi karena belum diinstall nya pack pada eclipse oxygen.
 
+setelah diinstall pack nya, baru ada muncul pilihan untuk board stm32f4. setelah dipilih board nya kemudian pada eclipse telah tersedia suatu program yang untuk menyalakan lampu hijau orange, merah kuning.
+
+![photokk](https://user-images.githubusercontent.com/32272275/32445476-6593c070-c338-11e7-8ab0-9347f939b4a6.png)
 
