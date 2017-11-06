@@ -18,3 +18,5 @@ setelah diinstall pack nya, baru ada muncul pilihan untuk board stm32f4. setelah
 
 ![photokk](https://user-images.githubusercontent.com/32272275/32445476-6593c070-c338-11e7-8ab0-9347f939b4a6.png)
 
+untuk menjalankan program tersebut, pertama di build dulu menggunakan simbol palu pada tool bar. kemudian ada kolom disebelah kiri, kemudian pilih stm32f... .hex kemudian click kanan-> run configuration.
+kemudian muncul gambar board stm32f4 beserta lampu green, yellow, red, orange sesuai dengan gambar di atas.
